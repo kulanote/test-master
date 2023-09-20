@@ -1,0 +1,24 @@
+.paint__area {
+  grid-area: area;
+
+  &__wrapper {
+    display: grid;
+    grid-template-areas:
+      "x-sizer x-sizer"
+      "y-sizer area";
+  }
+}
+
+.y_sizer {
+  grid-area: y-sizer;
+  height: 100%;
+  width: 30px;
+  text-align: center;
+}
+
+.x_sizer {
+  grid-area: x-sizer;
+  height: 30px;
+  width: 100%;
+  text-align: center;
+}
